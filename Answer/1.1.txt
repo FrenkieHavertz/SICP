@@ -1,0 +1,45 @@
+1.10
+Answer: 10
+
+2.（+ 5 3 4）
+Answer: 12
+
+3.（- 9 1）
+Answer: 8
+
+4.（/ 6 2）
+Answer: 3
+
+5.(+ (* 2 4) (- 4 6) )
+Answer: 6
+
+6.(define a 3)
+Answer: a = 3
+
+7.(define b (+ a 1) )
+Answer: b= 4
+
+8.(+ a b (* a b) )
+Answer: 19
+
+9.(= a b)
+Answer: #f
+
+10.(if (and (> b a) (< b (* a b) ) ) 
+	b
+	a)
+Answer: 4
+
+11.(cond ( (= a 4) 6 ) 
+	( (= b 4) (+ 6 7 a) ) 
+	(else 25) )
+Answer: 16
+
+12.(+ 2 (if (> b a) b a ) )
+Answer: 6
+
+13.(* (cond ( (> a b) a) 
+	( (< a b) b ) 
+	(else -1) )
+	(+ a 1) )
+Answer: 16
